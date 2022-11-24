@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
+  
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+ min-height: 100vh;
+ background-image: linear-gradient(to right top, #eee2ef, #ffcee1, #ffc0a0, #ffcf4a, #a8eb12);
+  
+}
+table {
+  width: 100%;
+  
+}
+td {
+  
+  /* border: 1px solid #ffffff; */
+  text-align:center;
+  padding: 8px;
+  font-size: 15px;
+  
+}
+th {
+  background-color:cadetblue;
+  padding: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+td {
+  background-color:rgb(204, 237, 238);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  display: flex;
+  gap: 5px;
 }
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 20px;
+}
+
+.input{
+  text-align: center;
+}
+.table{
+  margin-top: 30px;
+}
+h1{
+  text-align: center;
+  color: brown;
+}
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:100px;
+  height:40px;
+  border-width:1px;
+  color:#fff;
+  border-color:#3b6e22;
+  font-weight:bold;
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:0px;
+  border-bottom-right-radius:0px;
+  box-shadow:inset 0px 1px 0px 0px #9acc85;
+  background:linear-gradient(#74ad5a, #68a54b);
+  margin: 0px 10px;
+}
+.buttonClass:hover{
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.buttonClass2 {
+  font-size:15px;
+  font-family:Arial;
+  width:100px;
+  height:40px;
+  border-width:1px;
+  color:#fff;
+  border-color:#d0451b;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+  text-shadow:inset 0px 1px 0px #854629;
+  background:linear-gradient(#d0451b, #d0451b);
+}
+.buttonClass2:hover{
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.testbutton {
+  font-family: arial;
+  color: #14396A !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(to top, #63B8EE, #468CCF);
+ 
+}
+.testbutton:hover {
+  color: #14396A !important;
+  background: #468CCF;
+  background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+              
